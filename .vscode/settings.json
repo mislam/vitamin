@@ -1,0 +1,11 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.rulers": [100],
+  "editor.wordWrapColumn": 100,
+  "[vue]": {
+    "editor.rulers": [200],
+    "editor.wordWrapColumn": 200
+  }
+}
