@@ -7,5 +7,6 @@
   "[vue]": {
     "editor.rulers": [200],
     "editor.wordWrapColumn": 200
-  }
+  },
+  "css.customData": ["./.vscode/tailwind.json"]
 }
