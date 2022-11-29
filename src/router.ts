@@ -12,6 +12,7 @@ Object.entries(views).forEach(([viewPath, viewModule]: any) => {
   if (!new RegExp('/page$').test(routePath)) return
 
   routePath = routePath
+    .replace(new RegExp('/\\((\\w+)\\)', 'g'), '') // ignore all (label)
     .replace(new RegExp('\\[(\\w+)\\]', 'g'), ':$1') // all [slug] -> :slug
     .replace(new RegExp('/page$'), '') // only take the path without trailing /page
 
